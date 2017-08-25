@@ -1,0 +1,33 @@
+Unable to query physical screen size, defaulting to 100 dpi.
+To override, set QT_QPA_EGLFS_PHYSICAL_WIDTH and QT_QPA_EGLFS_PHYSICAL_HEIGHT (in millimeters).
+[32m=> Construct A New CanBusWorker[0m <-|1995735600|CanBusWorker::CanBusWorker(QObject*)|canbusworker.cpp|5|615082614|
+[32m[0m[32m=> Construct A New State ![0m <-|1995735600|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)|waitforpluginandinterface.cpp|6|615779164|
+[32m[0m[32m=> Construct A New State ![0m <-|1995735600|createDevice::createDevice(CanBusWorkerDB*)|createdevice.cpp|6|616009212|
+[32m[0m[32m=> Construct A New State ![0m <-|1995735600|connectDevice::connectDevice(CanBusWorkerDB*)|connectdevice.cpp|6|616136345|
+[32m[0m[32m=> Construct A New State[0m <-|1995735600|readFrame::readFrame(CanBusWorkerDB*)|readframe.cpp|6|616198947|
+[32m[0m[32m=> Construct A New State[0m <-|1995735600|writeFrame::writeFrame(CanBusWorkerDB*)|writeframe.cpp|6|616276654|
+[32m[0m[32m=> Construct A New State ![0m <-|1995735600|waitForErrorHandler::waitForErrorHandler(CanBusWorkerDB*, quint32)|waitforerrorhandler.cpp|7|616398579|
+[32m[0m[32m=> Enter State ...[0m <-|1925182512|virtual void waitForPluginAndInterface::onEntry(QEvent*)|waitforpluginandinterface.cpp|22|624044055|
+[32m[0m[32m=> CanBusWorkerDB Initialized ![0m <-|1925182512|void CanBusWorkerDB::initialize()|canbusworkerdb.cpp|20|634601506|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1925182512|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|1674919750|
+[32m[0m[37mFrom Can Bus[0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|47|1685655687|
+[37m[0m[32m=> CanBusWorkerDB::DataGet Parsed ![0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|51|1685830996|
+[32m[0m[37m   case CanBusWorkerDB::requestPluginAndInterface[0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|55|1685973598|
+[37m[0m[32m=> Plugin And Interface Info Replied ![0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|56|1686084898|
+[32m[0m[37m   plg:socketcan,itf:can0[0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|60|1686182448|
+[37m[0m[32m=> An External Signal Received ![0m <-|1925182512|void CanBusWorker::In(QVariant*, QVariant*)|canbusworker.cpp|70|1686268644|
+[32m[0m[32m=> CanBusWorkerDB::DataSet Parsed ![0m <-|1925182512|void CanBusWorker::In(QVariant*, QVariant*)|canbusworker.cpp|89|1686393016|
+[32m[0m[37m   case CanBusWorkerDB::replyPluginAndInterface[0m <-|1925182512|void CanBusWorker::In(QVariant*, QVariant*)|canbusworker.cpp|93|1686498327|
+[37m[0m[32m=> Enter State ...[0m <-|1925182512|virtual void createDevice::onEntry(QEvent*)|createdevice.cpp|11|1676941326|
+[32m[0m[37mFrom Can Bus[0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|47|1701492568|
+[37m[0m[32m=> Enter State ...[0m <-|1925182512|virtual void connectDevice::onEntry(QEvent*)|connectdevice.cpp|11|1691559376|
+[32m[0m[32m=> CanBusWorkerDB::Notification Parsed ![0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|118|1701770844|
+[32m[0m[37m   case CanBusWorkerDB::DeviceCreated[0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|129|1701887560|
+[37m[0m[32m=> DeviceStateChanged Emitted ! Current State Code : 1[0m <-|1925182512|createDevice::onEntry(QEvent*)::<lambda(QCanBusDevice::CanBusDeviceState)>|createdevice.cpp|37|1691699321|
+[32m[0m[32m=> DeviceStateChanged Emitted ! Current State Code : 2[0m <-|1925182512|createDevice::onEntry(QEvent*)::<lambda(QCanBusDevice::CanBusDeviceState)>|createdevice.cpp|37|1729295260|
+[32m[0m[37m   Successfully Connect Device ![0m <-|1925182512|virtual void connectDevice::onEntry(QEvent*)|connectdevice.cpp|14|1729671971|
+[37m[0m[32m=> Enter State ...[0m <-|1925182512|virtual void readFrame::onEntry(QEvent*)|readframe.cpp|11|1729996704|
+[32m[0m[37mFrom Can Bus[0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|47|1740229526|
+[37m[0m[32m=> CanBusWorkerDB::Notification Parsed ![0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|118|1740436762|
+[32m[0m[37m   case CanBusWorkerDB::DeviceConnected[0m <-|1995735600|void MainWindow::FromCanBusWorker(QVariant*, QVariant*)|mainwindow.cpp|135|1740553270|
+[37m[0m
