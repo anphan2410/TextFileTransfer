@@ -1,0 +1,37 @@
+Unable to query physical screen size, defaulting to 100 dpi.
+To override, set QT_QPA_EGLFS_PHYSICAL_WIDTH and QT_QPA_EGLFS_PHYSICAL_HEIGHT (in millimeters).
+[32m=> Construct A New CanBusWorker[0m <-|1996414976|CanBusWorker::CanBusWorker(QObject*)|canbusworker.cpp|5|69872243|
+[32m[0m[32m=> Construct A New State ![0m <-|1996414976|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)|waitforpluginandinterface.cpp|6|70160369|
+[32m[0m[32m=> Construct A New State ![0m <-|1996414976|createDevice::createDevice(CanBusWorkerDB*)|createdevice.cpp|6|70245317|
+[32m[0m[32m=> Construct A New State ![0m <-|1996414976|connectDevice::connectDevice(CanBusWorkerDB*)|connectdevice.cpp|6|70282609|
+[32m[0m[32m=> Construct A New State[0m <-|1996414976|readFrame::readFrame(CanBusWorkerDB*)|readframe.cpp|6|70325370|
+[32m[0m[32m=> Construct A New State[0m <-|1996414976|writeFrame::writeFrame(CanBusWorkerDB*)|writeframe.cpp|6|70373495|
+[32m[0m[32m=> Construct A New State ![0m <-|1996414976|waitForErrorHandler::waitForErrorHandler(CanBusWorkerDB*, quint32)|waitforerrorhandler.cpp|7|70410787|
+[32m[0m[32m=> Enter State ...[0m <-|1906926672|virtual void waitForPluginAndInterface::onEntry(QEvent*)|waitforpluginandinterface.cpp|22|71484699|
+[32m[0m[32m=> CanBusWorkerDB Initialized ![0m <-|1906926672|void CanBusWorkerDB::initialize()|canbusworkerdb.cpp|20|71848451|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|1021955508|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|1972559729|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|2921979388|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|3888388327|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|592888135|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|1593306362|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|2593722165|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|3593124393|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|298554563|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|1297944393|
+[32m[0m[32m=> Emit CanBusWorkerDB::requestPluginAndInterface[0m <-|1906926672|waitForPluginAndInterface::waitForPluginAndInterface(CanBusWorkerDB*, quint32)::<lambda()>|waitforpluginandinterface.cpp|13|2298371440|
+[32m[0m[32m=> Button Connect Clicked ![0m <-|1996414976|void MainWindow::on_pushButton_Connect_clicked()|mainwindow.cpp|118|3114955003|
+[32m[0m[32m=> An External Signal Received ![0m <-|1906926672|void CanBusWorker::In(QVariant*, QVariant*)|canbusworker.cpp|70|3115404640|
+[32m[0m[32m=> CanBusWorkerDB::DataSet Parsed ![0m <-|1906926672|void CanBusWorker::In(QVariant*, QVariant*)|canbusworker.cpp|89|3115662662|
+[32m[0m[37m   case CanBusWorkerDB::replyPluginAndInterface[0m <-|1906926672|void CanBusWorker::In(QVariant*, QVariant*)|canbusworker.cpp|93|3115845528|
+[37m[0m[32m=> Enter State ...[0m <-|1906926672|virtual void createDevice::onEntry(QEvent*)|createdevice.cpp|11|3116183550|
+[32m[0m[32m=> CanBusWorkerDB::Notification Parsed ![0m <-|1996414976|void MainWindow::In(QVariant*, QVariant*)|mainwindow.cpp|65|3119837943|
+[32m[0m[32m=> Enter State ...[0m <-|1906926672|virtual void connectDevice::onEntry(QEvent*)|connectdevice.cpp|11|3119843932|
+[32m[0m[37m   case CanBusWorkerDB::DeviceCreated[0m <-|1996414976|void MainWindow::In(QVariant*, QVariant*)|mainwindow.cpp|82|3120171903|
+[37m[0m[32m=> DeviceStateChanged Emitted ! Current State Code : 1[0m <-|1906926672|createDevice::onEntry(QEvent*)::<lambda(QCanBusDevice::CanBusDeviceState)>|createdevice.cpp|37|3120038777|
+[32m[0m[32m=> DeviceStateChanged Emitted ! Current State Code : 2[0m <-|1906926672|createDevice::onEntry(QEvent*)::<lambda(QCanBusDevice::CanBusDeviceState)>|createdevice.cpp|37|3120612946|
+[32m[0m[37m   Successfully Connect Device ![0m <-|1906926672|virtual void connectDevice::onEntry(QEvent*)|connectdevice.cpp|14|3120732270|
+[37m[0m[32m=> Enter State ...[0m <-|1906926672|virtual void readFrame::onEntry(QEvent*)|readframe.cpp|11|3121064720|
+[32m[0m[32m=> CanBusWorkerDB::Notification Parsed ![0m <-|1996414976|void MainWindow::In(QVariant*, QVariant*)|mainwindow.cpp|65|3121584254|
+[32m[0m[37m   case CanBusWorkerDB::DeviceConnected[0m <-|1996414976|void MainWindow::In(QVariant*, QVariant*)|mainwindow.cpp|88|3121726390|
+[37m[0m
